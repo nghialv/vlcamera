@@ -4,6 +4,48 @@
 <dict>
 	<key>Default</key>
 	<dict>
+		<key>take_picture_label</key>
+		<string>Camera</string>
+		<key>choose_picture_label</key>
+		<string>Choose a photo</string>
+		<key>add_toolbar_btn_image</key>
+		<string>add_toolbar.png</string>
+		<key>trash_toolbar_btn_image</key>
+		<string>trash_toolbar.png</string>
+		<key>flip_toolbar_btn_image</key>
+		<string>flip_toolbar.png</string>
+		<key>undo_toolbar_btn_image</key>
+		<string>undo_toolbar.png</string>
+		<key>save_success_label</key>
+		<string>Saved!</string>
+		<key>processing_label</key>
+		<string>Processing...</string>
+		<key>navbar_color</key>
+		<string>5A5A5A</string>
+		<key>toolbar_color</key>
+		<string>5A5A5A</string>
+		<key>navbar_bg_image</key>
+		<string>navbar_background.png</string>
+		<key>ipad_navbar_bg_image</key>
+		<string>ipad_navbar_background.png</string>
+		<key>toolbar_bg_image</key>
+		<string>toolbar_background.png</string>
+		<key>bar_btn_color</key>
+		<string>0E66A1</string>
+		<key>top_screen_btn_color</key>
+		<string>074772</string>
+		<key>top_screen_btn_shadow_color</key>
+		<string>FA801B</string>
+		<key>cannt_undo_label</key>
+		<string>Can&apos;t undo!</string>
+		<key>please_select_flip_item_label</key>
+		<string>Please select a sticker or text!</string>
+		<key>please_select_remove_item_label</key>
+		<string>Please select a sticker or text!</string>
+		<key>iad_height_iphone</key>
+		<integer>50</integer>
+		<key>iad_height_ipad</key>
+		<integer>66</integer>
 	</dict>
 </dict>
 </plist>

@@ -12,3 +12,28 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+/**
+ *	VLCamera
+ */
+#define RGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPAD (!IS_IPHONE)
+#define IS_WIDESCREEN ([[UIScreen mainScreen] bounds].size.height > 480.f)
+#define IS_IPHONE_5 ( IS_IPHONE && IS_WIDESCREEN )
+
+#define DEFAULT_FONT_SIZE (IS_IPAD ? 60.f : 30.f)
+#define TEXTFONT(s) [UIFont fontWithName:@"ChalkboardSE-Bold" size:(s)]
+
+enum {
+    PHOTOS_EXIF_0ROW_TOP_0COL_LEFT          = 1,
+    PHOTOS_EXIF_0ROW_TOP_0COL_RIGHT         = 2,
+    PHOTOS_EXIF_0ROW_BOTTOM_0COL_RIGHT      = 3,
+    PHOTOS_EXIF_0ROW_BOTTOM_0COL_LEFT       = 4,
+    PHOTOS_EXIF_0ROW_LEFT_0COL_TOP          = 5,
+    PHOTOS_EXIF_0ROW_RIGHT_0COL_TOP         = 6,
+    PHOTOS_EXIF_0ROW_RIGHT_0COL_BOTTOM      = 7,
+    PHOTOS_EXIF_0ROW_LEFT_0COL_BOTTOM       = 8
+};

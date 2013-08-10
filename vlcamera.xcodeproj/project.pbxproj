@@ -1,1563 +1,797 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>27E4EFD9749A4CA5A4C3762E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB6E661D22874AE6934E98D0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4621F67B40E44D5FB1EB2E98</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>AB6E661D22874AE6934E98D0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AC126E910450426588F0E3B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DA33B76D12B54D1E8F8B97BE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DC53B9E417B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53B9F617B5D13200FC695E</string>
-				<string>DC53BA3F17B5D13200FC695E</string>
-				<string>DC53B9EF17B5D13200FC695E</string>
-				<string>DC53B9EE17B5D13200FC695E</string>
-				<string>AC126E910450426588F0E3B9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9E517B5D13200FC695E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>NA</string>
-				<key>LastUpgradeCheck</key>
-				<string>0460</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>nghialv</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>DC53B9E817B5D13200FC695E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>DC53B9E417B5D13200FC695E</string>
-			<key>productRefGroup</key>
-			<string>DC53B9EE17B5D13200FC695E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>DC53B9EC17B5D13200FC695E</string>
-				<string>DC53BA3717B5D13200FC695E</string>
-			</array>
-		</dict>
-		<key>DC53B9E817B5D13200FC695E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DC53BA4817B5D13200FC695E</string>
-				<string>DC53BA4917B5D13200FC695E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DC53B9E917B5D13200FC695E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DC53B9FD17B5D13200FC695E</string>
-				<string>DC53BA0517B5D13200FC695E</string>
-				<string>DC53BA2B17B5D13200FC695E</string>
-				<string>DC53BA2E17B5D13200FC695E</string>
-				<string>DC53BA3217B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DC53B9EA17B5D13200FC695E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DC53B9F117B5D13200FC695E</string>
-				<string>DC53B9F317B5D13200FC695E</string>
-				<string>DC53B9F517B5D13200FC695E</string>
-				<string>27E4EFD9749A4CA5A4C3762E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DC53B9EB17B5D13200FC695E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DC53B9FB17B5D13200FC695E</string>
-				<string>DC53BA0817B5D13200FC695E</string>
-				<string>DC53BA0B17B5D13200FC695E</string>
-				<string>DC53BA0E17B5D13200FC695E</string>
-				<string>DC53BA1317B5D13200FC695E</string>
-				<string>DC53BA1517B5D13200FC695E</string>
-				<string>DC53BA1717B5D13200FC695E</string>
-				<string>DC53BA1917B5D13200FC695E</string>
-				<string>DC53BA1B17B5D13200FC695E</string>
-				<string>DC53BA1E17B5D13200FC695E</string>
-				<string>DC53BA2117B5D13200FC695E</string>
-				<string>DC53BA2417B5D13200FC695E</string>
-				<string>DC53BA2617B5D13200FC695E</string>
-				<string>DC53BA2817B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DC53B9EC17B5D13200FC695E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DC53BA4A17B5D13200FC695E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4621F67B40E44D5FB1EB2E98</string>
-				<string>DC53B9E917B5D13200FC695E</string>
-				<string>DC53B9EA17B5D13200FC695E</string>
-				<string>DC53B9EB17B5D13200FC695E</string>
-				<string>DA33B76D12B54D1E8F8B97BE</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>vlcamera</string>
-			<key>productName</key>
-			<string>vlcamera</string>
-			<key>productReference</key>
-			<string>DC53B9ED17B5D13200FC695E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>DC53B9ED17B5D13200FC695E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>vlcamera.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DC53B9EE17B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53B9ED17B5D13200FC695E</string>
-				<string>DC53BA3817B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9EF17B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53B9F017B5D13200FC695E</string>
-				<string>DC53B9F217B5D13200FC695E</string>
-				<string>DC53B9F417B5D13200FC695E</string>
-				<string>DC53BA3917B5D13200FC695E</string>
-				<string>AB6E661D22874AE6934E98D0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9F017B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>DC53B9F117B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53B9F017B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53B9F217B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>DC53B9F317B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53B9F217B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53B9F417B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>DC53B9F517B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53B9F417B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53B9F617B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53B9FF17B5D13200FC695E</string>
-				<string>DC53BA0F17B5D13200FC695E</string>
-				<string>DC53B9F717B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>vlcamera</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9F717B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53B9F817B5D13200FC695E</string>
-				<string>DC53B9F917B5D13200FC695E</string>
-				<string>DC53B9FC17B5D13200FC695E</string>
-				<string>DC53B9FE17B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9F817B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>vlcamera-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9F917B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53B9FA17B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9FA17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9FB17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53B9F917B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53B9FC17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9FD17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53B9FC17B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53B9FE17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>vlcamera-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53B9FF17B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA0017B5D13200FC695E</string>
-				<string>DC53BA0617B5D13200FC695E</string>
-				<string>DC53BA0917B5D13200FC695E</string>
-				<string>DC53BA0C17B5D13200FC695E</string>
-				<string>DC53BA2F17B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0017B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA0117B5D13200FC695E</string>
-				<string>DC53BA0217B5D13200FC695E</string>
-				<string>DC53BA0317B5D13200FC695E</string>
-				<string>DC53BA0417B5D13200FC695E</string>
-				<string>DC53BA2517B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Application</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0117B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>README.md</string>
-			<key>path</key>
-			<string>../README.md</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0217B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>.gitignore</string>
-			<key>path</key>
-			<string>../.gitignore</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0317B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NAAppDelegate.h</string>
-			<key>path</key>
-			<string>Classes/Application/NAAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0417B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NAAppDelegate.m</string>
-			<key>path</key>
-			<string>Classes/Application/NAAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0517B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA0417B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA0617B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA0717B5D13200FC695E</string>
-				<string>DC53BA2C17B5D13200FC695E</string>
-				<string>DC53BA2D17B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0717B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>.gitignore</string>
-			<key>path</key>
-			<string>Classes/Controller/.gitignore</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0817B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA0717B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA0917B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA0A17B5D13200FC695E</string>
-				<string>DC53BA2917B5D13200FC695E</string>
-				<string>DC53BA2A17B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0A17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>.gitignore</string>
-			<key>path</key>
-			<string>Classes/View/.gitignore</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0B17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA0A17B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA0C17B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA0D17B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0D17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>.gitignore</string>
-			<key>path</key>
-			<string>Classes/Model/.gitignore</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA0E17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA0D17B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA0F17B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA1017B5D13200FC695E</string>
-				<string>DC53BA1C17B5D13200FC695E</string>
-				<string>DC53BA1F17B5D13200FC695E</string>
-				<string>DC53BA2217B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1017B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA1117B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Images</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1117B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA1217B5D13200FC695E</string>
-				<string>DC53BA1417B5D13200FC695E</string>
-				<string>DC53BA1617B5D13200FC695E</string>
-				<string>DC53BA1817B5D13200FC695E</string>
-				<string>DC53BA1A17B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Background</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1217B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>Icon.png</string>
-			<key>path</key>
-			<string>Resources/Images/Background/Icon.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1317B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA1217B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA1417B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>Icon@2x.png</string>
-			<key>path</key>
-			<string>Resources/Images/Background/Icon@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1517B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA1417B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA1617B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>Default.png</string>
-			<key>path</key>
-			<string>Resources/Images/Background/Default.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1717B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA1617B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA1817B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>Default@2x.png</string>
-			<key>path</key>
-			<string>Resources/Images/Background/Default@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1917B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA1817B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA1A17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>Default-568h@2x.png</string>
-			<key>path</key>
-			<string>Resources/Images/Background/Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1B17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA1A17B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA1C17B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA1D17B5D13200FC695E</string>
-				<string>DC53BA2717B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Plists</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1D17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>.gitignore</string>
-			<key>path</key>
-			<string>Resources/Plists/.gitignore</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA1E17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA1D17B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA1F17B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA2017B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Sounds</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2017B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>.gitignore</string>
-			<key>path</key>
-			<string>Resources/Sounds/.gitignore</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2117B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA2017B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA2217B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA2317B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Xibs</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2317B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>.gitignore</string>
-			<key>path</key>
-			<string>Resources/Xibs/.gitignore</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2417B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA2317B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA2517B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2617B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA2517B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA2717B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>DB5.plist</string>
-			<key>path</key>
-			<string>Resources/Plists/DB5.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2817B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA2717B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA2917B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NAView.h</string>
-			<key>path</key>
-			<string>Classes/View/NAView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2A17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NAView.m</string>
-			<key>path</key>
-			<string>Classes/View/NAView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2B17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA2A17B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA2C17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NAViewController.h</string>
-			<key>path</key>
-			<string>Classes/Controller/NAViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2D17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NAViewController.m</string>
-			<key>path</key>
-			<string>Classes/Controller/NAViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA2E17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA2D17B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA2F17B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA3017B5D13200FC695E</string>
-				<string>DC53BA3117B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Utilities</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA3017B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NADB5.h</string>
-			<key>path</key>
-			<string>Classes/Utilities/NADB5.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA3117B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NADB5.m</string>
-			<key>path</key>
-			<string>Classes/Utilities/NADB5.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA3217B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA3117B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA3317B5D13200FC695E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DC53BA4717B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DC53BA3417B5D13200FC695E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DC53BA3A17B5D13200FC695E</string>
-				<string>DC53BA3B17B5D13200FC695E</string>
-				<string>DC53BA3C17B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DC53BA3517B5D13200FC695E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DC53BA4417B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DC53BA3617B5D13200FC695E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string># Run the unit tests in this test bundle.
-"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
-</string>
-		</dict>
-		<key>DC53BA3717B5D13200FC695E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DC53BA4D17B5D13200FC695E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DC53BA3317B5D13200FC695E</string>
-				<string>DC53BA3417B5D13200FC695E</string>
-				<string>DC53BA3517B5D13200FC695E</string>
-				<string>DC53BA3617B5D13200FC695E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>DC53BA3E17B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>vlcameraTests</string>
-			<key>productName</key>
-			<string>vlcameraTests</string>
-			<key>productReference</key>
-			<string>DC53BA3817B5D13200FC695E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>DC53BA3817B5D13200FC695E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>vlcameraTests.octest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DC53BA3917B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SenTestingKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/SenTestingKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>DC53BA3A17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA3917B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA3B17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53B9F017B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA3C17B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53B9F217B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA3D17B5D13200FC695E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>DC53B9E517B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>DC53B9EC17B5D13200FC695E</string>
-			<key>remoteInfo</key>
-			<string>vlcamera</string>
-		</dict>
-		<key>DC53BA3E17B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>DC53B9EC17B5D13200FC695E</string>
-			<key>targetProxy</key>
-			<string>DC53BA3D17B5D13200FC695E</string>
-		</dict>
-		<key>DC53BA3F17B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA4517B5D13200FC695E</string>
-				<string>DC53BA4617B5D13200FC695E</string>
-				<string>DC53BA4017B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>vlcameraTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA4017B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA4117B5D13200FC695E</string>
-				<string>DC53BA4217B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA4117B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>vlcameraTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA4217B5D13200FC695E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC53BA4317B5D13200FC695E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA4317B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA4417B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA4217B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA4517B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>vlcameraTests.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA4617B5D13200FC695E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>vlcameraTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC53BA4717B5D13200FC695E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC53BA4617B5D13200FC695E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC53BA4817B5D13200FC695E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DC53BA4917B5D13200FC695E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DC53BA4A17B5D13200FC695E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DC53BA4B17B5D13200FC695E</string>
-				<string>DC53BA4C17B5D13200FC695E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DC53BA4B17B5D13200FC695E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AC126E910450426588F0E3B9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>vlcamera/vlcamera-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vlcamera/vlcamera-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DC53BA4C17B5D13200FC695E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AC126E910450426588F0E3B9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>vlcamera/vlcamera-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vlcamera/vlcamera-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DC53BA4D17B5D13200FC695E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DC53BA4E17B5D13200FC695E</string>
-				<string>DC53BA4F17B5D13200FC695E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DC53BA4E17B5D13200FC695E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/vlcamera.app/vlcamera</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>vlcamera/vlcamera-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vlcameraTests/vlcameraTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DC53BA4F17B5D13200FC695E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/vlcamera.app/vlcamera</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>vlcamera/vlcamera-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vlcameraTests/vlcameraTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>DC53B9E517B5D13200FC695E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27E4EFD9749A4CA5A4C3762E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6E661D22874AE6934E98D0 /* libPods.a */; };
+		DC2E257C17B735C800BE9F6D /* navbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2E257817B735C800BE9F6D /* navbar_background.png */; };
+		DC2E257D17B735C800BE9F6D /* navbar_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2E257917B735C800BE9F6D /* navbar_background@2x.png */; };
+		DC2E257E17B735C800BE9F6D /* toolbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2E257A17B735C800BE9F6D /* toolbar_background.png */; };
+		DC2E257F17B735C800BE9F6D /* toolbar_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2E257B17B735C800BE9F6D /* toolbar_background@2x.png */; };
+		DC2E258317B754C400BE9F6D /* flip_toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2E258217B754C400BE9F6D /* flip_toolbar.png */; };
+		DC415D9617B5D648007522E2 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = DC415D9517B5D648007522E2 /* icons */; };
+		DC415D9917B5D6C8007522E2 /* NAShareKitConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC415D9817B5D6C8007522E2 /* NAShareKitConfigurator.m */; };
+		DC415D9C17B5D71E007522E2 /* NATopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC415D9B17B5D71E007522E2 /* NATopViewController.m */; };
+		DC415D9F17B5D795007522E2 /* NATopView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC415D9E17B5D795007522E2 /* NATopView.m */; };
+		DC415DA217B5DF6E007522E2 /* NAEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC415DA117B5DF6E007522E2 /* NAEditingViewController.m */; };
+		DC415DA517B5E0B5007522E2 /* NAEditingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC415DA417B5E0B5007522E2 /* NAEditingView.m */; };
+		DC415DAC17B5E8A8007522E2 /* add_toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = DC415DA917B5E8A8007522E2 /* add_toolbar.png */; };
+		DC415DAD17B5E8A8007522E2 /* trash_toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = DC415DAA17B5E8A8007522E2 /* trash_toolbar.png */; };
+		DC415DAE17B5E8A8007522E2 /* undo_toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = DC415DAB17B5E8A8007522E2 /* undo_toolbar.png */; };
+		DC415DB117B5F0B7007522E2 /* NAStickerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC415DB017B5F0B7007522E2 /* NAStickerListViewController.m */; };
+		DC415DB417B5F14C007522E2 /* NAStickerListView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC415DB317B5F14C007522E2 /* NAStickerListView.m */; };
+		DC415DB617B5FB5A007522E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC415DB517B5FB5A007522E2 /* QuartzCore.framework */; };
+		DC415DB917B60886007522E2 /* NAResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC415DB817B60886007522E2 /* NAResultViewController.m */; };
+		DC415DBC17B609F3007522E2 /* NAShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC415DBB17B609F3007522E2 /* NAShareViewController.m */; };
+		DC43DD0817D71EEB003A2B68 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC43DD0717D71EEA003A2B68 /* iAd.framework */; };
+		DC53B9F117B5D13200FC695E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53B9F017B5D13200FC695E /* UIKit.framework */; };
+		DC53B9F317B5D13200FC695E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53B9F217B5D13200FC695E /* Foundation.framework */; };
+		DC53B9F517B5D13200FC695E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53B9F417B5D13200FC695E /* CoreGraphics.framework */; };
+		DC53B9FB17B5D13200FC695E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC53B9F917B5D13200FC695E /* InfoPlist.strings */; };
+		DC53B9FD17B5D13200FC695E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53B9FC17B5D13200FC695E /* main.m */; };
+		DC53BA0517B5D13200FC695E /* NAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53BA0417B5D13200FC695E /* NAAppDelegate.m */; };
+		DC53BA0E17B5D13200FC695E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA0D17B5D13200FC695E /* .gitignore */; };
+		DC53BA1317B5D13200FC695E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA1217B5D13200FC695E /* Icon.png */; };
+		DC53BA1517B5D13200FC695E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA1417B5D13200FC695E /* Icon@2x.png */; };
+		DC53BA1717B5D13200FC695E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA1617B5D13200FC695E /* Default.png */; };
+		DC53BA1917B5D13200FC695E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA1817B5D13200FC695E /* Default@2x.png */; };
+		DC53BA1B17B5D13200FC695E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA1A17B5D13200FC695E /* Default-568h@2x.png */; };
+		DC53BA2117B5D13200FC695E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA2017B5D13200FC695E /* .gitignore */; };
+		DC53BA2417B5D13200FC695E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA2317B5D13200FC695E /* .gitignore */; };
+		DC53BA2617B5D13200FC695E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA2517B5D13200FC695E /* Podfile */; };
+		DC53BA2817B5D13200FC695E /* DB5.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA2717B5D13200FC695E /* DB5.plist */; };
+		DC53BA2B17B5D13200FC695E /* NAView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53BA2A17B5D13200FC695E /* NAView.m */; };
+		DC53BA2E17B5D13200FC695E /* NAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53BA2D17B5D13200FC695E /* NAViewController.m */; };
+		DC53BA3217B5D13200FC695E /* NADB5.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53BA3117B5D13200FC695E /* NADB5.m */; };
+		DC53BA3A17B5D13200FC695E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53BA3917B5D13200FC695E /* SenTestingKit.framework */; };
+		DC53BA3B17B5D13200FC695E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53B9F017B5D13200FC695E /* UIKit.framework */; };
+		DC53BA3C17B5D13200FC695E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53B9F217B5D13200FC695E /* Foundation.framework */; };
+		DC53BA4417B5D13200FC695E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC53BA4217B5D13200FC695E /* InfoPlist.strings */; };
+		DC53BA4717B5D13200FC695E /* vlcameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53BA4617B5D13200FC695E /* vlcameraTests.m */; };
+		DC7C519E17B6668F00AFC4C2 /* NAShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C519D17B6668F00AFC4C2 /* NAShareView.m */; };
+		DC7C51A017B67C5900AFC4C2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7C519F17B67C5900AFC4C2 /* logo.png */; };
+		DC80035E17B7839B00C40164 /* Iconipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DC80035D17B7839A00C40164 /* Iconipad.png */; };
+		DC80036017B783A100C40164 /* Iconipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC80035F17B783A000C40164 /* Iconipad@2x.png */; };
+		DC80036317B787E800C40164 /* navbar_background_origin.png in Resources */ = {isa = PBXBuildFile; fileRef = DC80036117B787E800C40164 /* navbar_background_origin.png */; };
+		DC80036417B787E800C40164 /* navbar_background@2x_origin.png in Resources */ = {isa = PBXBuildFile; fileRef = DC80036217B787E800C40164 /* navbar_background@2x_origin.png */; };
+		DC80036717B7880900C40164 /* ipad_navbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DC80036517B7880900C40164 /* ipad_navbar_background.png */; };
+		DC80036817B7880900C40164 /* ipad_navbar_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC80036617B7880900C40164 /* ipad_navbar_background@2x.png */; };
+		DCC99F9D17B78E0700803010 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC99F9C17B78E0700803010 /* Default-Portrait~ipad.png */; };
+		DCC99F9F17B78E1000803010 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC99F9E17B78E1000803010 /* Default-Portrait@2x~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC53BA3D17B5D13200FC695E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC53B9E517B5D13200FC695E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC53B9EC17B5D13200FC695E;
+			remoteInfo = vlcamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB6E661D22874AE6934E98D0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC126E910450426588F0E3B9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DC2E257817B735C800BE9F6D /* navbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navbar_background.png; path = Resources/Images/Background/navbar_background.png; sourceTree = "<group>"; };
+		DC2E257917B735C800BE9F6D /* navbar_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navbar_background@2x.png"; path = "Resources/Images/Background/navbar_background@2x.png"; sourceTree = "<group>"; };
+		DC2E257A17B735C800BE9F6D /* toolbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toolbar_background.png; path = Resources/Images/Background/toolbar_background.png; sourceTree = "<group>"; };
+		DC2E257B17B735C800BE9F6D /* toolbar_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar_background@2x.png"; path = "Resources/Images/Background/toolbar_background@2x.png"; sourceTree = "<group>"; };
+		DC2E258217B754C400BE9F6D /* flip_toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flip_toolbar.png; sourceTree = "<group>"; };
+		DC415D9517B5D648007522E2 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/Images/icons; sourceTree = "<group>"; };
+		DC415D9717B5D6C8007522E2 /* NAShareKitConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAShareKitConfigurator.h; path = Classes/Application/NAShareKitConfigurator.h; sourceTree = "<group>"; };
+		DC415D9817B5D6C8007522E2 /* NAShareKitConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAShareKitConfigurator.m; path = Classes/Application/NAShareKitConfigurator.m; sourceTree = "<group>"; };
+		DC415D9A17B5D71E007522E2 /* NATopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NATopViewController.h; path = Classes/Controller/NATopViewController.h; sourceTree = "<group>"; };
+		DC415D9B17B5D71E007522E2 /* NATopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NATopViewController.m; path = Classes/Controller/NATopViewController.m; sourceTree = "<group>"; };
+		DC415D9D17B5D795007522E2 /* NATopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NATopView.h; path = Classes/View/NATopView.h; sourceTree = "<group>"; };
+		DC415D9E17B5D795007522E2 /* NATopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NATopView.m; path = Classes/View/NATopView.m; sourceTree = "<group>"; };
+		DC415DA017B5DF6E007522E2 /* NAEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAEditingViewController.h; path = Classes/Controller/NAEditingViewController.h; sourceTree = "<group>"; };
+		DC415DA117B5DF6E007522E2 /* NAEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAEditingViewController.m; path = Classes/Controller/NAEditingViewController.m; sourceTree = "<group>"; };
+		DC415DA317B5E0B5007522E2 /* NAEditingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAEditingView.h; path = Classes/View/NAEditingView.h; sourceTree = "<group>"; };
+		DC415DA417B5E0B5007522E2 /* NAEditingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAEditingView.m; path = Classes/View/NAEditingView.m; sourceTree = "<group>"; };
+		DC415DA917B5E8A8007522E2 /* add_toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_toolbar.png; sourceTree = "<group>"; };
+		DC415DAA17B5E8A8007522E2 /* trash_toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash_toolbar.png; sourceTree = "<group>"; };
+		DC415DAB17B5E8A8007522E2 /* undo_toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo_toolbar.png; sourceTree = "<group>"; };
+		DC415DAF17B5F0B7007522E2 /* NAStickerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAStickerListViewController.h; path = Classes/Controller/NAStickerListViewController.h; sourceTree = "<group>"; };
+		DC415DB017B5F0B7007522E2 /* NAStickerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAStickerListViewController.m; path = Classes/Controller/NAStickerListViewController.m; sourceTree = "<group>"; };
+		DC415DB217B5F14C007522E2 /* NAStickerListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAStickerListView.h; path = Classes/View/NAStickerListView.h; sourceTree = "<group>"; };
+		DC415DB317B5F14C007522E2 /* NAStickerListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAStickerListView.m; path = Classes/View/NAStickerListView.m; sourceTree = "<group>"; };
+		DC415DB517B5FB5A007522E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DC415DB717B60886007522E2 /* NAResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAResultViewController.h; path = Classes/Controller/NAResultViewController.h; sourceTree = "<group>"; };
+		DC415DB817B60886007522E2 /* NAResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAResultViewController.m; path = Classes/Controller/NAResultViewController.m; sourceTree = "<group>"; };
+		DC415DBA17B609F3007522E2 /* NAShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAShareViewController.h; path = Classes/Controller/NAShareViewController.h; sourceTree = "<group>"; };
+		DC415DBB17B609F3007522E2 /* NAShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAShareViewController.m; path = Classes/Controller/NAShareViewController.m; sourceTree = "<group>"; };
+		DC43DD0717D71EEA003A2B68 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		DC53B9ED17B5D13200FC695E /* vlcamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vlcamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC53B9F017B5D13200FC695E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC53B9F217B5D13200FC695E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC53B9F417B5D13200FC695E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC53B9F817B5D13200FC695E /* vlcamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vlcamera-Info.plist"; sourceTree = "<group>"; };
+		DC53B9FA17B5D13200FC695E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC53B9FC17B5D13200FC695E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC53B9FE17B5D13200FC695E /* vlcamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vlcamera-Prefix.pch"; sourceTree = "<group>"; };
+		DC53BA0117B5D13200FC695E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DC53BA0217B5D13200FC695E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		DC53BA0317B5D13200FC695E /* NAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NAAppDelegate.h; path = Classes/Application/NAAppDelegate.h; sourceTree = "<group>"; };
+		DC53BA0417B5D13200FC695E /* NAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NAAppDelegate.m; path = Classes/Application/NAAppDelegate.m; sourceTree = "<group>"; };
+		DC53BA0D17B5D13200FC695E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = Classes/Model/.gitignore; sourceTree = "<group>"; };
+		DC53BA1217B5D13200FC695E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Images/Background/Icon.png; sourceTree = "<group>"; };
+		DC53BA1417B5D13200FC695E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Images/Background/Icon@2x.png"; sourceTree = "<group>"; };
+		DC53BA1617B5D13200FC695E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Images/Background/Default.png; sourceTree = "<group>"; };
+		DC53BA1817B5D13200FC695E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Images/Background/Default@2x.png"; sourceTree = "<group>"; };
+		DC53BA1A17B5D13200FC695E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Images/Background/Default-568h@2x.png"; sourceTree = "<group>"; };
+		DC53BA2017B5D13200FC695E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = Resources/Sounds/.gitignore; sourceTree = "<group>"; };
+		DC53BA2317B5D13200FC695E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = Resources/Xibs/.gitignore; sourceTree = "<group>"; };
+		DC53BA2517B5D13200FC695E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC53BA2717B5D13200FC695E /* DB5.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = DB5.plist; path = Resources/Plists/DB5.plist; sourceTree = "<group>"; };
+		DC53BA2917B5D13200FC695E /* NAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NAView.h; path = Classes/View/NAView.h; sourceTree = "<group>"; };
+		DC53BA2A17B5D13200FC695E /* NAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NAView.m; path = Classes/View/NAView.m; sourceTree = "<group>"; };
+		DC53BA2C17B5D13200FC695E /* NAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NAViewController.h; path = Classes/Controller/NAViewController.h; sourceTree = "<group>"; };
+		DC53BA2D17B5D13200FC695E /* NAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NAViewController.m; path = Classes/Controller/NAViewController.m; sourceTree = "<group>"; };
+		DC53BA3017B5D13200FC695E /* NADB5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NADB5.h; path = Classes/Utilities/NADB5.h; sourceTree = "<group>"; };
+		DC53BA3117B5D13200FC695E /* NADB5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NADB5.m; path = Classes/Utilities/NADB5.m; sourceTree = "<group>"; };
+		DC53BA3817B5D13200FC695E /* vlcameraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vlcameraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC53BA3917B5D13200FC695E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC53BA4117B5D13200FC695E /* vlcameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vlcameraTests-Info.plist"; sourceTree = "<group>"; };
+		DC53BA4317B5D13200FC695E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC53BA4517B5D13200FC695E /* vlcameraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vlcameraTests.h; sourceTree = "<group>"; };
+		DC53BA4617B5D13200FC695E /* vlcameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vlcameraTests.m; sourceTree = "<group>"; };
+		DC7C519C17B6668F00AFC4C2 /* NAShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAShareView.h; path = Classes/View/NAShareView.h; sourceTree = "<group>"; };
+		DC7C519D17B6668F00AFC4C2 /* NAShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAShareView.m; path = Classes/View/NAShareView.m; sourceTree = "<group>"; };
+		DC7C519F17B67C5900AFC4C2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/Images/Background/logo.png; sourceTree = "<group>"; };
+		DC80035D17B7839A00C40164 /* Iconipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Iconipad.png; path = ../Iconipad.png; sourceTree = "<group>"; };
+		DC80035F17B783A000C40164 /* Iconipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Iconipad@2x.png"; path = "../Iconipad@2x.png"; sourceTree = "<group>"; };
+		DC80036117B787E800C40164 /* navbar_background_origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navbar_background_origin.png; path = Resources/Images/Background/navbar_background_origin.png; sourceTree = "<group>"; };
+		DC80036217B787E800C40164 /* navbar_background@2x_origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navbar_background@2x_origin.png"; path = "Resources/Images/Background/navbar_background@2x_origin.png"; sourceTree = "<group>"; };
+		DC80036517B7880900C40164 /* ipad_navbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipad_navbar_background.png; path = Resources/Images/Background/ipad_navbar_background.png; sourceTree = "<group>"; };
+		DC80036617B7880900C40164 /* ipad_navbar_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ipad_navbar_background@2x.png"; path = "Resources/Images/Background/ipad_navbar_background@2x.png"; sourceTree = "<group>"; };
+		DCC99F9C17B78E0700803010 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		DCC99F9E17B78E1000803010 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC53B9EA17B5D13200FC695E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC43DD0817D71EEB003A2B68 /* iAd.framework in Frameworks */,
+				DC415DB617B5FB5A007522E2 /* QuartzCore.framework in Frameworks */,
+				DC53B9F117B5D13200FC695E /* UIKit.framework in Frameworks */,
+				DC53B9F317B5D13200FC695E /* Foundation.framework in Frameworks */,
+				DC53B9F517B5D13200FC695E /* CoreGraphics.framework in Frameworks */,
+				27E4EFD9749A4CA5A4C3762E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC53BA3417B5D13200FC695E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC53BA3A17B5D13200FC695E /* SenTestingKit.framework in Frameworks */,
+				DC53BA3B17B5D13200FC695E /* UIKit.framework in Frameworks */,
+				DC53BA3C17B5D13200FC695E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC415DA817B5E8A8007522E2 /* editing_screen */ = {
+			isa = PBXGroup;
+			children = (
+				DC2E258217B754C400BE9F6D /* flip_toolbar.png */,
+				DC415DA917B5E8A8007522E2 /* add_toolbar.png */,
+				DC415DAA17B5E8A8007522E2 /* trash_toolbar.png */,
+				DC415DAB17B5E8A8007522E2 /* undo_toolbar.png */,
+			);
+			name = editing_screen;
+			path = Resources/Images/editing_screen;
+			sourceTree = "<group>";
+		};
+		DC53B9E417B5D13200FC695E = {
+			isa = PBXGroup;
+			children = (
+				DC53B9F617B5D13200FC695E /* vlcamera */,
+				DC53BA3F17B5D13200FC695E /* vlcameraTests */,
+				DC53B9EF17B5D13200FC695E /* Frameworks */,
+				DC53B9EE17B5D13200FC695E /* Products */,
+				AC126E910450426588F0E3B9 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DC53B9EE17B5D13200FC695E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC53B9ED17B5D13200FC695E /* vlcamera.app */,
+				DC53BA3817B5D13200FC695E /* vlcameraTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC53B9EF17B5D13200FC695E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC43DD0717D71EEA003A2B68 /* iAd.framework */,
+				DC415DB517B5FB5A007522E2 /* QuartzCore.framework */,
+				DC53B9F017B5D13200FC695E /* UIKit.framework */,
+				DC53B9F217B5D13200FC695E /* Foundation.framework */,
+				DC53B9F417B5D13200FC695E /* CoreGraphics.framework */,
+				DC53BA3917B5D13200FC695E /* SenTestingKit.framework */,
+				AB6E661D22874AE6934E98D0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC53B9F617B5D13200FC695E /* vlcamera */ = {
+			isa = PBXGroup;
+			children = (
+				DC53B9FF17B5D13200FC695E /* Classes */,
+				DC53BA0F17B5D13200FC695E /* Resources */,
+				DC53B9F717B5D13200FC695E /* Supporting Files */,
+			);
+			path = vlcamera;
+			sourceTree = "<group>";
+		};
+		DC53B9F717B5D13200FC695E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC53B9F817B5D13200FC695E /* vlcamera-Info.plist */,
+				DC53B9F917B5D13200FC695E /* InfoPlist.strings */,
+				DC53B9FC17B5D13200FC695E /* main.m */,
+				DC53B9FE17B5D13200FC695E /* vlcamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC53B9FF17B5D13200FC695E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA0017B5D13200FC695E /* Application */,
+				DC53BA0617B5D13200FC695E /* Controller */,
+				DC53BA0917B5D13200FC695E /* View */,
+				DC53BA0C17B5D13200FC695E /* Model */,
+				DC53BA2F17B5D13200FC695E /* Utilities */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DC53BA0017B5D13200FC695E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA0317B5D13200FC695E /* NAAppDelegate.h */,
+				DC53BA0417B5D13200FC695E /* NAAppDelegate.m */,
+				DC415D9717B5D6C8007522E2 /* NAShareKitConfigurator.h */,
+				DC415D9817B5D6C8007522E2 /* NAShareKitConfigurator.m */,
+				DC53BA2517B5D13200FC695E /* Podfile */,
+				DC53BA0117B5D13200FC695E /* README.md */,
+				DC53BA0217B5D13200FC695E /* .gitignore */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		DC53BA0617B5D13200FC695E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA2C17B5D13200FC695E /* NAViewController.h */,
+				DC53BA2D17B5D13200FC695E /* NAViewController.m */,
+				DC415D9A17B5D71E007522E2 /* NATopViewController.h */,
+				DC415D9B17B5D71E007522E2 /* NATopViewController.m */,
+				DC415DA017B5DF6E007522E2 /* NAEditingViewController.h */,
+				DC415DA117B5DF6E007522E2 /* NAEditingViewController.m */,
+				DC415DAF17B5F0B7007522E2 /* NAStickerListViewController.h */,
+				DC415DB017B5F0B7007522E2 /* NAStickerListViewController.m */,
+				DC415DB717B60886007522E2 /* NAResultViewController.h */,
+				DC415DB817B60886007522E2 /* NAResultViewController.m */,
+				DC415DBA17B609F3007522E2 /* NAShareViewController.h */,
+				DC415DBB17B609F3007522E2 /* NAShareViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DC53BA0917B5D13200FC695E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA2917B5D13200FC695E /* NAView.h */,
+				DC53BA2A17B5D13200FC695E /* NAView.m */,
+				DC415D9D17B5D795007522E2 /* NATopView.h */,
+				DC415D9E17B5D795007522E2 /* NATopView.m */,
+				DC415DA317B5E0B5007522E2 /* NAEditingView.h */,
+				DC415DA417B5E0B5007522E2 /* NAEditingView.m */,
+				DC415DB217B5F14C007522E2 /* NAStickerListView.h */,
+				DC415DB317B5F14C007522E2 /* NAStickerListView.m */,
+				DC7C519C17B6668F00AFC4C2 /* NAShareView.h */,
+				DC7C519D17B6668F00AFC4C2 /* NAShareView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DC53BA0C17B5D13200FC695E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA0D17B5D13200FC695E /* .gitignore */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DC53BA0F17B5D13200FC695E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA1017B5D13200FC695E /* Images */,
+				DC53BA1C17B5D13200FC695E /* Plists */,
+				DC53BA1F17B5D13200FC695E /* Sounds */,
+				DC53BA2217B5D13200FC695E /* Xibs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC53BA1017B5D13200FC695E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC415D9517B5D648007522E2 /* icons */,
+				DC415DA817B5E8A8007522E2 /* editing_screen */,
+				DC53BA1117B5D13200FC695E /* Background */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DC53BA1117B5D13200FC695E /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				DCC99F9E17B78E1000803010 /* Default-Portrait@2x~ipad.png */,
+				DCC99F9C17B78E0700803010 /* Default-Portrait~ipad.png */,
+				DC80036517B7880900C40164 /* ipad_navbar_background.png */,
+				DC80036617B7880900C40164 /* ipad_navbar_background@2x.png */,
+				DC80036117B787E800C40164 /* navbar_background_origin.png */,
+				DC80036217B787E800C40164 /* navbar_background@2x_origin.png */,
+				DC2E257817B735C800BE9F6D /* navbar_background.png */,
+				DC80035F17B783A000C40164 /* Iconipad@2x.png */,
+				DC80035D17B7839A00C40164 /* Iconipad.png */,
+				DC2E257917B735C800BE9F6D /* navbar_background@2x.png */,
+				DC2E257A17B735C800BE9F6D /* toolbar_background.png */,
+				DC2E257B17B735C800BE9F6D /* toolbar_background@2x.png */,
+				DC7C519F17B67C5900AFC4C2 /* logo.png */,
+				DC53BA1217B5D13200FC695E /* Icon.png */,
+				DC53BA1417B5D13200FC695E /* Icon@2x.png */,
+				DC53BA1617B5D13200FC695E /* Default.png */,
+				DC53BA1817B5D13200FC695E /* Default@2x.png */,
+				DC53BA1A17B5D13200FC695E /* Default-568h@2x.png */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		DC53BA1C17B5D13200FC695E /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA2717B5D13200FC695E /* DB5.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+		DC53BA1F17B5D13200FC695E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA2017B5D13200FC695E /* .gitignore */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		DC53BA2217B5D13200FC695E /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA2317B5D13200FC695E /* .gitignore */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		DC53BA2F17B5D13200FC695E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA3017B5D13200FC695E /* NADB5.h */,
+				DC53BA3117B5D13200FC695E /* NADB5.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		DC53BA3F17B5D13200FC695E /* vlcameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA4517B5D13200FC695E /* vlcameraTests.h */,
+				DC53BA4617B5D13200FC695E /* vlcameraTests.m */,
+				DC53BA4017B5D13200FC695E /* Supporting Files */,
+			);
+			path = vlcameraTests;
+			sourceTree = "<group>";
+		};
+		DC53BA4017B5D13200FC695E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC53BA4117B5D13200FC695E /* vlcameraTests-Info.plist */,
+				DC53BA4217B5D13200FC695E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC53B9EC17B5D13200FC695E /* vlcamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC53BA4A17B5D13200FC695E /* Build configuration list for PBXNativeTarget "vlcamera" */;
+			buildPhases = (
+				4621F67B40E44D5FB1EB2E98 /* Check Pods Manifest.lock */,
+				DC53B9E917B5D13200FC695E /* Sources */,
+				DC53B9EA17B5D13200FC695E /* Frameworks */,
+				DC53B9EB17B5D13200FC695E /* Resources */,
+				DA33B76D12B54D1E8F8B97BE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vlcamera;
+			productName = vlcamera;
+			productReference = DC53B9ED17B5D13200FC695E /* vlcamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC53BA3717B5D13200FC695E /* vlcameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC53BA4D17B5D13200FC695E /* Build configuration list for PBXNativeTarget "vlcameraTests" */;
+			buildPhases = (
+				DC53BA3317B5D13200FC695E /* Sources */,
+				DC53BA3417B5D13200FC695E /* Frameworks */,
+				DC53BA3517B5D13200FC695E /* Resources */,
+				DC53BA3617B5D13200FC695E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC53BA3E17B5D13200FC695E /* PBXTargetDependency */,
+			);
+			name = vlcameraTests;
+			productName = vlcameraTests;
+			productReference = DC53BA3817B5D13200FC695E /* vlcameraTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC53B9E517B5D13200FC695E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = nghialv;
+			};
+			buildConfigurationList = DC53B9E817B5D13200FC695E /* Build configuration list for PBXProject "vlcamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC53B9E417B5D13200FC695E;
+			productRefGroup = DC53B9EE17B5D13200FC695E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC53B9EC17B5D13200FC695E /* vlcamera */,
+				DC53BA3717B5D13200FC695E /* vlcameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC53B9EB17B5D13200FC695E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC53B9FB17B5D13200FC695E /* InfoPlist.strings in Resources */,
+				DC53BA0E17B5D13200FC695E /* .gitignore in Resources */,
+				DC53BA1317B5D13200FC695E /* Icon.png in Resources */,
+				DC53BA1517B5D13200FC695E /* Icon@2x.png in Resources */,
+				DC53BA1717B5D13200FC695E /* Default.png in Resources */,
+				DC53BA1917B5D13200FC695E /* Default@2x.png in Resources */,
+				DC53BA1B17B5D13200FC695E /* Default-568h@2x.png in Resources */,
+				DC53BA2117B5D13200FC695E /* .gitignore in Resources */,
+				DC53BA2417B5D13200FC695E /* .gitignore in Resources */,
+				DC53BA2617B5D13200FC695E /* Podfile in Resources */,
+				DC53BA2817B5D13200FC695E /* DB5.plist in Resources */,
+				DC415D9617B5D648007522E2 /* icons in Resources */,
+				DC415DAC17B5E8A8007522E2 /* add_toolbar.png in Resources */,
+				DC415DAD17B5E8A8007522E2 /* trash_toolbar.png in Resources */,
+				DC415DAE17B5E8A8007522E2 /* undo_toolbar.png in Resources */,
+				DC7C51A017B67C5900AFC4C2 /* logo.png in Resources */,
+				DC2E257C17B735C800BE9F6D /* navbar_background.png in Resources */,
+				DC2E257D17B735C800BE9F6D /* navbar_background@2x.png in Resources */,
+				DC2E257E17B735C800BE9F6D /* toolbar_background.png in Resources */,
+				DC2E257F17B735C800BE9F6D /* toolbar_background@2x.png in Resources */,
+				DC2E258317B754C400BE9F6D /* flip_toolbar.png in Resources */,
+				DC80035E17B7839B00C40164 /* Iconipad.png in Resources */,
+				DC80036017B783A100C40164 /* Iconipad@2x.png in Resources */,
+				DC80036317B787E800C40164 /* navbar_background_origin.png in Resources */,
+				DC80036417B787E800C40164 /* navbar_background@2x_origin.png in Resources */,
+				DC80036717B7880900C40164 /* ipad_navbar_background.png in Resources */,
+				DC80036817B7880900C40164 /* ipad_navbar_background@2x.png in Resources */,
+				DCC99F9D17B78E0700803010 /* Default-Portrait~ipad.png in Resources */,
+				DCC99F9F17B78E1000803010 /* Default-Portrait@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC53BA3517B5D13200FC695E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC53BA4417B5D13200FC695E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4621F67B40E44D5FB1EB2E98 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA33B76D12B54D1E8F8B97BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC53BA3617B5D13200FC695E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC53B9E917B5D13200FC695E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC53B9FD17B5D13200FC695E /* main.m in Sources */,
+				DC53BA0517B5D13200FC695E /* NAAppDelegate.m in Sources */,
+				DC53BA2B17B5D13200FC695E /* NAView.m in Sources */,
+				DC53BA2E17B5D13200FC695E /* NAViewController.m in Sources */,
+				DC53BA3217B5D13200FC695E /* NADB5.m in Sources */,
+				DC415D9917B5D6C8007522E2 /* NAShareKitConfigurator.m in Sources */,
+				DC415D9C17B5D71E007522E2 /* NATopViewController.m in Sources */,
+				DC415D9F17B5D795007522E2 /* NATopView.m in Sources */,
+				DC415DA217B5DF6E007522E2 /* NAEditingViewController.m in Sources */,
+				DC415DA517B5E0B5007522E2 /* NAEditingView.m in Sources */,
+				DC415DB117B5F0B7007522E2 /* NAStickerListViewController.m in Sources */,
+				DC415DB417B5F14C007522E2 /* NAStickerListView.m in Sources */,
+				DC415DB917B60886007522E2 /* NAResultViewController.m in Sources */,
+				DC415DBC17B609F3007522E2 /* NAShareViewController.m in Sources */,
+				DC7C519E17B6668F00AFC4C2 /* NAShareView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC53BA3317B5D13200FC695E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC53BA4717B5D13200FC695E /* vlcameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC53BA3E17B5D13200FC695E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC53B9EC17B5D13200FC695E /* vlcamera */;
+			targetProxy = DC53BA3D17B5D13200FC695E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC53B9F917B5D13200FC695E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC53B9FA17B5D13200FC695E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC53BA4217B5D13200FC695E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC53BA4317B5D13200FC695E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC53BA4817B5D13200FC695E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC53BA4917B5D13200FC695E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC53BA4B17B5D13200FC695E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC126E910450426588F0E3B9 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vlcamera/vlcamera-Prefix.pch";
+				INFOPLIST_FILE = "vlcamera/vlcamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC53BA4C17B5D13200FC695E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC126E910450426588F0E3B9 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vlcamera/vlcamera-Prefix.pch";
+				INFOPLIST_FILE = "vlcamera/vlcamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC53BA4E17B5D13200FC695E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vlcamera.app/vlcamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vlcamera/vlcamera-Prefix.pch";
+				INFOPLIST_FILE = "vlcameraTests/vlcameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC53BA4F17B5D13200FC695E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vlcamera.app/vlcamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vlcamera/vlcamera-Prefix.pch";
+				INFOPLIST_FILE = "vlcameraTests/vlcameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC53B9E817B5D13200FC695E /* Build configuration list for PBXProject "vlcamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC53BA4817B5D13200FC695E /* Debug */,
+				DC53BA4917B5D13200FC695E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC53BA4A17B5D13200FC695E /* Build configuration list for PBXNativeTarget "vlcamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC53BA4B17B5D13200FC695E /* Debug */,
+				DC53BA4C17B5D13200FC695E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC53BA4D17B5D13200FC695E /* Build configuration list for PBXNativeTarget "vlcameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC53BA4E17B5D13200FC695E /* Debug */,
+				DC53BA4F17B5D13200FC695E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC53B9E517B5D13200FC695E /* Project object */;
+}

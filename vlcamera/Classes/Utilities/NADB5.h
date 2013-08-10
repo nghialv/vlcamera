@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <VSTheme.h>
+#include <VSTheme.h>
 #import <VSThemeLoader.h>
 
 @interface NADB5 : NSObject

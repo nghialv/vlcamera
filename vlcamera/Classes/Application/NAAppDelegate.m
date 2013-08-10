@@ -7,6 +7,8 @@
 //
 
 #import "NAAppDelegate.h"
+#import <SHKConfiguration.h>
+#import "NAShareKitConfigurator.h"
 
 @implementation NAAppDelegate
 
@@ -14,9 +16,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // config sharekit
+    NAShareKitConfigurator *sharekitConfig = [[NAShareKitConfigurator alloc] init];
+    [SHKConfiguration sharedInstanceWithConfigurator:sharekitConfig];
+    // window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    // Override point for customization after application launch.
+    self.topViewController = [[NATopViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:self.topViewController];
+    //navController.navigationBar.tintColor = [[NADB5 theme] colorForKey:@"navbar_color"];
+    if (IS_IPAD) {
+        [navController.navigationBar setBackgroundImage:[[NADB5 theme] imageForKey:@"ipad_navbar_bg_image"]
+                                          forBarMetrics:0];
+    } else {
+        [navController.navigationBar setBackgroundImage:[[NADB5 theme] imageForKey:@"navbar_bg_image"]
+                                      forBarMetrics:0];
+    }
+    [[UIBarButtonItem appearance] setTintColor:[[NADB5 theme] colorForKey:@"bar_btn_color"]];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
